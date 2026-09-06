@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+test
+data
+archive
+generated_dataset_output
+question_type_dataset_output
+
 # C extensions
 *.so
 
