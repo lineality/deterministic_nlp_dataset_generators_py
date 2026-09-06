@@ -204,7 +204,6 @@ DEFAULT_EVENT_NAME_COLLECTION: tuple[str, ...] = (
     "the tallent show",
     "The Birds",
     "the murder mystery dinner",
-
 )
 
 DEFAULT_TIME_TERM_COLLECTION: tuple[str, ...] = (
