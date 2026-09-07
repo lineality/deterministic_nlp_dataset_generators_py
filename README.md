@@ -74,3 +74,19 @@ Clause Dynamics:
 misprediction log: appended 212 records to /home/oops/code/granmo_model_nlp_classifier_rust/para_byte_ganmo/logs/trash.txt
 saved model artifact to /home/oops/models/unified_question_type_datasetv1.gmb
 ```
+
+
+
+...
+
+$ python /home/oops/code/deterministic_nlp_dataset_generators_py/time_event_binary_classifier_gen_v5.py --mode unified --balanced --standard-format
+[PIPELINE STATUS] Generating Class A records (KNOWN_EVENT_UNKNOWN_TIME) with prefix modifiers...
+[PIPELINE STATUS] Generated 132392 records for Class A.
+[PIPELINE STATUS] Generating Class B records (KNOWN_TIME_UNKNOWN_EVENT) with systematic numbers...
+[PIPELINE STATUS] Generated 99807 records for Class B.
+[PIPELINE STATUS] Balancing classes to identical record cardinality...
+[PIPELINE STATUS] Balanced dataset total records: 199614
+[PIPELINE STATUS] Projecting records to standard format schema ('text', 'label')...
+[SUCCESS] Wrote Unified Set: question_type_dataset_output/unified_question_type_dataset.jsonl
+          Total: 199614 | Class A: 99807 | Class B: 99807
+[PIPELINE STATUS] K-Fold CV Folds Assigned: 0 through 4
